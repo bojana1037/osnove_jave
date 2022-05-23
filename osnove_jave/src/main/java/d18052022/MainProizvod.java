@@ -1,4 +1,5 @@
 package d18052022;
+
 //Napisati klasu Proizvod koja ima atribute
 //naziv proizvoda (String)
 //cenu proizvoda (double)
@@ -16,7 +17,7 @@ public class MainProizvod {
         vanilinSecer.cenaProizvoda = 10.5;
         vanilinSecer.tezinaProizvodaUGramima = 5.5;
 
-        vanilinSecer.stampa ();
+        vanilinSecer.stampa();
 
         Proizvod cimet = new Proizvod();
         cimet.nazivProizvoda = "Cimet";
